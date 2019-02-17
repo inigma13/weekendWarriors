@@ -20,5 +20,13 @@ class Login
     /**
      * @ORM\Column(type="string")
      */
-    private $name;
+    private $emailAddress;
+    /**
+     * @ORM\Column(type="string")
+     */
+    private $password;
+    /**
+     * @ORM\Column(type="boolean")
+     */
+    private $online;
 }

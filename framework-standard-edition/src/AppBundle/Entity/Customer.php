@@ -1,15 +1,16 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Ashleigh
- * Date: 20/01/2019
- * Time: 2:30 PM
- */
 
+namespace AppBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * @ORM\Entity
+ * @ORM\Table(name="Customer")
+ */
 
 class Customer
 {
-
 
     var $firstName;
     var $lastName;
